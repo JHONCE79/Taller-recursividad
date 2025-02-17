@@ -10,8 +10,7 @@ def anagrama(text):
         restante = text[1:]
         combinations = []
         for i in anagrama(restante):
-            nuevo = text[:i] + primero + text[i:]
-            combinations.append(nuevo)
+            combinations.append(i)
         return combinations
                    
 

@@ -1,0 +1,5 @@
+"""
+Anagramas
+"""
+
+def anagrama()
